@@ -5,7 +5,8 @@ class Calculator:
 		self.root = root
 		self.root.title("Calculadora")
 		self.root.config(bg="black")
-
+                self.root.resizable(width=False, height=False)
+		
 		frame = Frame()
 		frame.pack()
 		frame.config(width=350, height=350, bg="black")
