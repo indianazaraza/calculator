@@ -88,8 +88,7 @@ class Calculator_buttons:
 
 
 	def delete_all_input(self):
-		#borrar todo el texto del entry, pasado en los parámetros del método delete,
-		#es decir desde el índice cero hasta lo que haya
+		#borrar todo el texto del entry desde el índice cero hasta lo que haya
 		self.input_num.set("")
 
 
